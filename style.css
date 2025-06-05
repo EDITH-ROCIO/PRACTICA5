@@ -1,0 +1,82 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #37e181;
+      color: #0f0f0f;
+    }
+    header {
+      background-color: #fa0a86;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+   
+    header img {
+      height: 60px;
+    }
+    nav a {
+      color: #040404;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .banner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #53e291;
+      color: #070707;
+      padding: 20px;
+    }
+    .section-title {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .services, .team, .specialists {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 20px 10px;
+    }
+   
+    .card {
+      background-color: #f261f7;
+      color: #000;
+      border-radius: 10px;
+      overflow: hidden;
+      width: 200px;
+      margin: 10px;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+     .service card {
+    width: 150px;
+    animation: rotar 5s linear infinite;
+  }
+    .footer {
+      background-color: #e34eaf;
+      color: #000;
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+    .footer h3 {
+      color: #050505;
+    }
+    .footer .social-icons img {
+      width: 32px;
+      margin: 0 5px;
+    }
+    .copyright {
+      background-color: #0afe06;
+      color: rgb(9, 9, 9);
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9em;
+    }
